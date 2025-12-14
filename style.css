@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Users/User/Downloads/mountain-forest-jungle-trees-cartoon-background-generative-ai.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    border: 1px solid gray;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    padding: 40px 90px;
+    color: lightskyblue;
+    position: relative;
+    border-radius: 20px;
+    width: 50%;
+    height: 500px;
+
+}
+.photo{
+    width: 20%;
+    border-radius: 50%;
+    background: gray;
+    padding: 5px;
+}
+.about{
+    border: 1px solid gray;
+    background: gray;
+    color: lightskyblue;
+    margin-left: -90px;
+    margin-right: 400px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 200px;
+    float: left;
+   
+}
+.experience{
+    border: 1px solid gray;
+    background: blue;
+    color: lightskyblue;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 200px;
+    text-align: center;
+    float: left;
+
+
+ 
+}
+.hobbies{
+    border: 1px solid gray;
+    background: green;
+    color: lightskyblue;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    
+}
+.goal{
+    border: 1px solid gray;
+    background: purple;
+    color: lightskyblue;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 200px;
+    text-align: center;
+    float: left;
+   
+}
+.contact{
+    border: 1px solid gray;
+    background: red;
+    color: lightskyblue;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 200px;
+    text-align: center;
+    
+}
+.whatsapp{
+    width: 10%;
+}
+.location{
+    width: 10%;
+}
+.email{
+    width: 10%;
+}
